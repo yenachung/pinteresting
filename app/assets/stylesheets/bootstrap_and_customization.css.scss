@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+
 $body-bg: white;
-$navbar-inverse-bg: #1BA39C;
-$navbar-inverse-link-color:  white;
+$font-family-sans-serif: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg: #1BA39C;
+$navbar-default-link-color:  white;
 $brand-primary: #F27935;
+$btn-success-bg: #F4D03F;
 $jumbotron-bg:   #86E2D5;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
